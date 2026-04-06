@@ -1,4 +1,4 @@
-#  Finwise - Personal Finance Tracker
+  Finwise - Personal Finance Tracker
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/your-username/finwise)
 ![GitHub stars](https://img.shields.io/github/stars/your-username/finwise?style=social)
@@ -8,63 +8,61 @@
 A lightweight and user-friendly **personal finance tracker** built using **Vanilla JavaScript**.
 Track your income, expenses, and financial trends — directly in your browser with no backend required.
 
----
 
-## ✨ Demo
 
-👉 *Add your live demo link here (GitHub Pages / Netlify)*
+ Demo
 
----
+Add your live demo link here (GitHub Pages / Netlify
 
-## 🚀 Features
+Features
 
-* 📊 **Real-time Dashboard**
+Real-time Dashboard
 
-  * Balance, Income, Expense overview
+   Balance, Income, Expense overview
 
-* 📈 **Visual Analytics**
+Visual Analytics
 
-  * Line chart for balance trends
-  * Pie chart for expense distribution
+  Line chart for balance trends
+  Pie chart for expense distribution
 
-* 🧾 **Transaction Management**
+Transaction Management
 
-  * Add / Edit / Delete transactions
-  * Filter by type & category
-  * Search and sort functionality
+   Add / Edit / Delete transactions
+   Filter by type & category
+   Search and sort functionality
 
-* 🌙 **Dark Mode Support**
+Dark Mode Support
 
-  * Persistent theme using localStorage
+  Persistent theme using localStorage
 
-* 🔐 **Role-Based Access**
+Role-Based Access
 
-  * Admin → full control
-  * Viewer → read-only
+   Admin → full control
+   Viewer → read-only
 
-* 💾 **Local Storage Persistence**
+ Local Storage Persistence
 
-  * No database required
+  No database required
 
-* 📤 **Export to CSV**
+Export to CSV
 
-  * Download all transactions easily
-
----
-
-## 🛠️ Tech Stack
-
-* **HTML5**
-* **CSS3**
-* **JavaScript (ES6)**
-* **Chart.js**
-* **Font Awesome**
-
----
+  Download all transactions easily
 
 
 
-## 📂 Project Structure
+ Tech Stack
+
+HTML5
+CSS3
+JavaScript (ES6)
+Chart.js
+Font Awesome
+
+
+
+
+
+ Project Structure
 
 ```
 Finwise/
@@ -76,7 +74,7 @@ Finwise/
 
 ---
 
-## ⚙️ Getting Started
+ Getting Started
 
 Clone the repository:
 
@@ -92,29 +90,28 @@ cd finwise
 
 Run:
 
-* Simply open `index.html` in your browser
+Simply open `index.html` in your browser
 
 ---
 
-## ⚠️ Limitations
-
-* No backend (data stored in browser)
-* No real authentication system
-* Data resets if localStorage is cleared
-
----
-
-## 🔮 Future Enhancements
-
-* User authentication (login/signup)
-* Cloud database integration
-* Mobile-first UI improvements
-* Advanced analytics & reports
-* AI-based financial insights
+Limitations
+ No backend (data stored in browser)
+ No real authentication system
+ Data resets if localStorage is cleared
 
 ---
 
-## 🤝 Contributing
+ Future Enhancements
+
+ User authentication (login/signup)
+ Cloud database integration
+ Mobile-first UI improvements
+ Advanced analytics & reports
+ AI-based financial insights
+
+
+
+ Contributing
 
 Contributions are welcome!
 
@@ -125,12 +122,12 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
+ License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+ Author
 
-Made with ❤️ as a weekend project.
+Made with ❤️ as a assignment project.
