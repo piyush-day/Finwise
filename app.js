@@ -1,7 +1,6 @@
-// ok so this is my finance app
-// i built this over a weekend, might have some bugs lol
 
-// default data - just some sample transactions
+
+// default data 
 const defaultData = [
   { id: '1', date: '2026-03-01', amount: 5000, category: 'Salary', type: 'income', desc: 'March salary' },
   { id: '2', date: '2026-03-05', amount: 1200, category: 'Food', type: 'expense', desc: 'Groceries' },
@@ -13,11 +12,11 @@ const defaultData = [
   { id: '8', date: '2026-03-20', amount: 250, category: 'Entertainment', type: 'expense', desc: 'Movies' }
 ];
 
-// category lists - hardcoded because i'm lazy
+// category lists 
 const incomeCats = ['Salary', 'Freelance', 'Investment', 'Gift', 'Other'];
 const expenseCats = ['Food', 'Shopping', 'Transport', 'Bills', 'Entertainment', 'Health', 'Other'];
 
-// load from localStorage or use default
+// load from localStorage 
 let transactions = [];
 let currentRole = 'admin'; // admin or viewer
 let darkMode = false;
@@ -152,7 +151,7 @@ function getExpenseBreakdown() {
   return Array.from(breakdown.entries()).map(([cat, amt]) => ({ category: cat, amount: amt }));
 }
 
-// filter and sort transactions - this took me forever to debug
+// filter and sort transactions 
 function getFilteredTransactions() {
   let filtered = [...transactions];
   
@@ -323,7 +322,7 @@ function saveModalForm() {
   closeModal();
 }
 
-// chart stuff - i hate chart.js sometimes
+// chart stuff 
 function initCharts() {
   let lineCanvas = document.getElementById('lineChart');
   let pieCanvas = document.getElementById('pieChart');
@@ -380,7 +379,7 @@ function initCharts() {
   }
 }
 
-// render modal - this was a pain to get right
+// render modal 
 function renderModal() {
   let modalRoot = document.getElementById('modal-root');
   if (!modalRoot) return;
@@ -472,7 +471,7 @@ function escapeHtml(str) {
   });
 }
 
-// main render function - this is where everything comes together
+// main render function 
 function render() {
   let stats = calculateStats();
   let filtered = getFilteredTransactions();
