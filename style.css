@@ -1,4 +1,4 @@
-/* ok so this is my css - might be a bit messy but who cares */
+/* ok so this is my css */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   transition: all 0.3s;
 }
 
-/* dark mode - honestly i just guessed these colors */
+/* dark mode */
 body.dark-mode {
   background: #0f172a;
   color: #e2e8f0;
@@ -31,7 +31,7 @@ body.dark-mode {
   }
 }
 
-/* cards - i like these rounded corners */
+/* cards  */
 .card {
   background: white;
   border-radius: 1rem;
@@ -73,7 +73,7 @@ body.dark-mode .header {
   color: transparent;
 }
 
-/* stats grid - used flex because grid was being weird */
+/* stats grid  */
 .stats-grid {
   display: flex;
   gap: 1.25rem;
@@ -97,7 +97,7 @@ body.dark-mode .header {
   font-weight: bold;
 }
 
-/* charts row - honestly took me a while to get this responsive */
+/* charts row */
 .charts-row {
   display: grid;
   grid-template-columns: 1fr;
@@ -127,7 +127,7 @@ body.dark-mode .chart-container {
   width: 100%;
 }
 
-/* insights box - kinda ugly but functional */
+/* insights box  */
 .insights-box {
   background: linear-gradient(135deg, #eef2ff, #faf5ff);
   border-radius: 1rem;
@@ -148,7 +148,7 @@ body.dark-mode .insights-box {
   margin-top: 0.75rem;
 }
 
-/* transactions table - i know overflow scroll is bad but whatever */
+/* transactions table  */
 .transactions-wrapper {
   background: white;
   border-radius: 1rem;
@@ -240,7 +240,7 @@ body.dark-mode td {
   border-bottom-color: #334155;
 }
 
-/* badge styles - copied from some tutorial */
+/* badge styles */
 .badge {
   display: inline-block;
   padding: 0.25rem 0.5rem;
@@ -297,7 +297,7 @@ body.dark-mode .badge-expense {
   background: #e2e8f0;
 }
 
-/* modal - i struggled with this */
+/* modal  */
 .modal {
   position: fixed;
   top: 0;
@@ -375,7 +375,7 @@ body.dark-mode .modal-content {
   color: #64748b;
 }
 
-/* scrollbar - why is this always such a pain */
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
